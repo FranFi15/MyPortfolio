@@ -24,7 +24,7 @@ const AcercaContainer = styled.div`
     flex-direction: column;
     height: auto;
     align-items: center;
-    margin: 100px 0;
+    margin: 50px 0;
   }
 `;
 

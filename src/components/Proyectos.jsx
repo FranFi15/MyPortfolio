@@ -18,10 +18,10 @@ export const ProyectsContainer = styled.div`
     color: #ffc700;
   }
   @media screen and (max-width: 768px) {
+    padding: 0;
     h2 {
       padding-left: 20px;
       font-size: 30px;
-      margin-top: 200px;
       align-self: flex-start;
     }
   }
