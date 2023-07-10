@@ -33,7 +33,7 @@ const Acerca = styled.div`
   letter-spacing: 2px;
 
   h2 {
-    font-family: "Big Shoulders Display", cursive;
+    font-family: "Big Shoulders Display", sans-serif;
     font-size: 50px;
     color: #ffc700;
   }
