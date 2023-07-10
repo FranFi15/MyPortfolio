@@ -5,7 +5,6 @@ import { Pages } from "../data/data";
 export const ProyectsContainer = styled.div`
   height: auto;
   width: 100%;
-  z-index: 3;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -18,6 +17,12 @@ export const ProyectsContainer = styled.div`
     font-size: 50px;
     color: #ffc700;
   }
+  @media screen and (max-width: 600px) {
+    h2 {
+      font-size: 30px;
+      margin-top: 300px;
+    }
+  }
 `;
 
 export const PageGrid = styled.div`
@@ -25,6 +30,10 @@ export const PageGrid = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    margin: 50px 0;
+  }
 `;
 
 export const Page = styled.div`
@@ -43,6 +52,10 @@ export const Page = styled.div`
     box-shadow: 0px 0px 15px 0px black;
     transform: scale(1.1);
   }
+  @media screen and (max-width: 600px) {
+    width: 300px;
+    box-shadow: 0;
+  }
 `;
 
 export const Images = styled.img`
@@ -59,6 +72,9 @@ export const Images = styled.img`
   &:hover {
     filter: blur(0);
     filter: contrast(100%);
+  }
+  @media screen and (max-width: 600px) {
+    filter: blur(0);
   }
 `;
 

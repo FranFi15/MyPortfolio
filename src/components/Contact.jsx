@@ -14,6 +14,14 @@ const ContactContainer = styled.div`
     font-size: 50px;
     color: #ffc700;
   }
+  @media screen and (max-width: 600px) {
+    margin-top: 350px;
+    height: 50vh;
+
+    h2 {
+      font-size: 30px;
+    }
+  }
 `;
 
 const Info = styled.div`
@@ -24,11 +32,19 @@ const Info = styled.div`
   font-weight: 400;
   letter-spacing: 2px;
   color: white;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25%;
+  }
 `;
 
 const Item = styled.div`
   display: flex;
   align-items: center;
+  @media screen and (max-width: 600px) {
+    font-size: 10px;
+  }
 `;
 
 const Contact = () => {

@@ -19,6 +19,13 @@ const AcercaContainer = styled.div`
   margin: 50px 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin: 100px 0;
+  }
 `;
 
 const Acerca = styled.div`
@@ -31,6 +38,7 @@ const Acerca = styled.div`
   text-align: left;
   color: white;
   letter-spacing: 2px;
+  font-size: 17px;
 
   h2 {
     font-family: "Big Shoulders Display", sans-serif;
@@ -48,6 +56,16 @@ const Acerca = styled.div`
   a:hover {
     color: #ffc700;
   }
+  @media screen and (max-width: 600px) {
+    width: 90%;
+    height: auto;
+    margin: 0;
+    font-size: 15px;
+
+    h2 {
+      font-size: 30px;
+    }
+  }
 `;
 const EstudiosContainer = styled.div`
   display: flex;
@@ -63,6 +81,15 @@ const EstudiosContainer = styled.div`
     font-size: 50px;
     color: #ffc700;
     letter-spacing: 2px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 90%;
+    height: auto;
+    margin: 50px 0;
+
+    h2 {
+      font-size: 30px;
+    }
   }
 `;
 
@@ -82,6 +109,10 @@ const Tecnologias = styled.div`
   img:hover {
     transform: scale(1.2);
     filter: drop-shadow(4px 4px 2px #000);
+  }
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    justify-content: center;
   }
 `;
 

@@ -60,7 +60,7 @@ const ContainerInfo = styled.div`
       font-size: 30px;
     }
     h3 {
-      font-size: 17px;
+      font-size: 18px;
     }
   }
 `;
@@ -74,7 +74,7 @@ const BannerImg = styled.img`
   object-fit: cover;
   box-shadow: 1px 1px 5px 2px #ffc700;
   @media screen and (max-width: 600px) {
-    width: 90%;
+    width: 80%;
     height: 90%;
   }
 `;
@@ -112,6 +112,10 @@ const Socials = styled.a`
   :hover {
     transform: scale(1.2);
     color: #ffc700;
+  }
+  @media screen and (max-width: 600px) {
+    height: 40px;
+    width: 40px;
   }
 `;
 

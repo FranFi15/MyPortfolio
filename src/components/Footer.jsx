@@ -11,6 +11,13 @@ const Info = styled.div`
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 12px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 9px;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+  }
 `;
 
 const Footer = () => {
