@@ -19,8 +19,10 @@ export const ProyectsContainer = styled.div`
   }
   @media screen and (max-width: 600px) {
     h2 {
+      padding-left: 20px;
       font-size: 30px;
       margin-top: 300px;
+      align-self: flex-start;
     }
   }
 `;
@@ -32,7 +34,7 @@ export const PageGrid = styled.div`
   width: 100%;
   @media screen and (max-width: 600px) {
     flex-direction: column;
-    margin: 50px 0;
+    margin: 0 50px;
   }
 `;
 
