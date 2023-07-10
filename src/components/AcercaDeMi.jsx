@@ -20,7 +20,7 @@ const AcercaContainer = styled.div`
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
     height: auto;
     align-items: center;
@@ -56,7 +56,7 @@ const Acerca = styled.div`
   a:hover {
     color: #ffc700;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     width: 90%;
     height: auto;
     margin: 0;
@@ -82,7 +82,7 @@ const EstudiosContainer = styled.div`
     color: #ffc700;
     letter-spacing: 2px;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     width: 90%;
     height: auto;
     margin: 50px 0;
@@ -110,7 +110,7 @@ const Tecnologias = styled.div`
     transform: scale(1.2);
     filter: drop-shadow(4px 4px 2px #000);
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
     justify-content: center;
   }

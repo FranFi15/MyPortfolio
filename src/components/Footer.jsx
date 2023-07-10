@@ -12,7 +12,7 @@ const Info = styled.div`
   font-weight: 400;
   font-size: 12px;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     font-size: 9px;
     justify-content: center;
     margin: 0;

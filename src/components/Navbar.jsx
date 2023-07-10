@@ -13,7 +13,7 @@ const NavbarContainer = styled.div`
   -moz-box-shadow: 0px 3px 2px 0px #ffc700;
   z-index: 2;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     visibility: hidden;
   }
 `;

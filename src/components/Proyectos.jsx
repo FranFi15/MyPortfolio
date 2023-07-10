@@ -17,11 +17,11 @@ export const ProyectsContainer = styled.div`
     font-size: 50px;
     color: #ffc700;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     h2 {
       padding-left: 20px;
       font-size: 30px;
-      margin-top: 300px;
+      margin-top: 200px;
       align-self: flex-start;
     }
   }
@@ -32,7 +32,7 @@ export const PageGrid = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
     margin: 0 50px;
   }
@@ -54,7 +54,7 @@ export const Page = styled.div`
     box-shadow: 0px 0px 15px 0px black;
     transform: scale(1.1);
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     width: 300px;
     box-shadow: 0;
   }
@@ -75,7 +75,7 @@ export const Images = styled.img`
     filter: blur(0);
     filter: contrast(100%);
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     filter: blur(0);
   }
 `;

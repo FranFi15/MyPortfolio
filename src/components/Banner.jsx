@@ -17,7 +17,7 @@ const BannerConatainer = styled.div`
   font-family: "Big Shoulders Display", cursive;
   z-index: 0;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
     width: 100%;
     padding-top: 0;
@@ -50,7 +50,7 @@ const ContainerInfo = styled.div`
   h3 {
     margin: 2px 0;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
     justify-content: space-around;
     align-items: center;
@@ -73,7 +73,7 @@ const BannerImg = styled.img`
   border-radius: 120px 120px 300px 300px;
   object-fit: cover;
   box-shadow: 1px 1px 5px 2px #ffc700;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     width: 80%;
     height: 90%;
   }
@@ -92,7 +92,7 @@ const BannerSocials = styled.div`
     color: #ffc700;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     margin-right: 100px;
     span {
       visibility: hidden;
@@ -113,7 +113,7 @@ const Socials = styled.a`
     transform: scale(1.2);
     color: #ffc700;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     height: 40px;
     width: 40px;
   }

@@ -14,7 +14,7 @@ const ContactContainer = styled.div`
     font-size: 50px;
     color: #ffc700;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     margin-top: 350px;
     height: 35vh;
 
@@ -32,7 +32,7 @@ const Info = styled.div`
   font-weight: 400;
   letter-spacing: 2px;
   color: white;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
     justify-content: space-evenly;
     height: 50%;
@@ -42,7 +42,7 @@ const Info = styled.div`
 const Item = styled.div`
   display: flex;
   align-items: center;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     font-size: 10px;
   }
 `;
