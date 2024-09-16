@@ -8,6 +8,7 @@ export const ProyectsContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   padding: 50px 0;
   height: 80vh;
