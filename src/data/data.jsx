@@ -22,6 +22,13 @@ export const proyectos = [
     link: "https://cuadros.vercel.app/",
     img: "/img/cuadros.jpg",
   },
+  {
+    id: 4,
+    name: "Invitación Boda",
+    tecnologias: "Javascript",
+    link: "https://floryfran.vercel.app/",
+    img: "/img/casorio.png",
+  },
 ];
 
 export const Pages = proyectos.reduce((res, page) => {
